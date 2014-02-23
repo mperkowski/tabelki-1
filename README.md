@@ -13,5 +13,7 @@ Tabelki w HTML5:
 
 ## TODO
 
-1. Opanować system [Git](http://git-scm.com/).
+1. Opanować system [Git][1].
 1. Zapoznać się z **Markdown**.
+
+[1]: http://git-scm.com/
