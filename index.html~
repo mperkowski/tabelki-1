@@ -205,10 +205,7 @@ Przygotować poziomą tabelę z planem zajęć, tzn. dni tygodnia, czyli sobotę
                     <div class="clearfix"></div>
                     <h2 class="section-heading">              	
 	<table>
-    		<thead>
-        		<tr>
-            			<th colspan="5">Plan zajęć</th>
-        		</tr>
+    		
         <tr>
             <th>American Chicken</th>
             <th>French Connections</th>

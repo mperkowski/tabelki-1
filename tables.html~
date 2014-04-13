@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Techniki internetowe - strona główna</title>
+    <title>JBASDNASLDNAS.,MDAS,D</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -100,8 +100,7 @@ Przygotować poziomą tabelę z planem zajęć, tzn. dni tygodnia, czyli sobotę
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                    	
-                </div>
-	<table>
+                </div><table>
     <thead>
         <tr>
             <th colspan="7">Plan zajęć</th>
@@ -116,7 +115,7 @@ Przygotować poziomą tabelę z planem zajęć, tzn. dni tygodnia, czyli sobotę
             <th>Rodzaj</th>
 
         </tr>
-    </thead>
+    
     
     <tbody>
     
@@ -203,40 +202,12 @@ Przygotować poziomą tabelę z planem zajęć, tzn. dni tygodnia, czyli sobotę
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">              	
-	<table>
-    		<thead>
-        		<tr>
-            			<th colspan="5">Plan zajęć</th>
-        		</tr>
-        <tr>
-            <th>American Chicken</th>
-            <th>French Connections</th>
-            <th>Age </th>
-            <th>Weight</th>
-            <th>Connections</th>
-        </tr>
-    		</thead>
-	<tbody>
-		
-
-
-
-
-
-
-
-
-
-
-
-		</tbody>
-		</table>
+                    <h2 class="section-heading">kurczaki
                         <br>2 razy !</h2>
                     <p class="lead">Tu<a target="_blank" href="http://www.psdcovers.com/">Visit their website</a> to download some of their awesome, free photoshop actions!</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-      		<p>kurczaki - tabela</p>
+                    <img class="img-responsive" src="img/doge.png" alt="">
                 </div>
             </div>
 
