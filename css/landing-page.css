@@ -12,12 +12,16 @@ table {
 	table-layout: fixed;
 	font-family: serif;
 	text-align: center;
-	width: 650px;
+	
 
 }
 table thead tr th { 
 	text-align: center;
 	
+}
+
+td{
+	padding: 10px 5px;
 }
 #asd {
 	height: 30px;
@@ -94,6 +98,7 @@ img {
 
 table, td {
 	border: 1px #70b8ff dashed;
+	
 }
 
 .network-name {

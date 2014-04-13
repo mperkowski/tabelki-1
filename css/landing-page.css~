@@ -8,10 +8,31 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Quintessential', cursive;
 	font-weight: 700;
 }
+table {
+	table-layout: fixed;
+	font-family: serif;
+	text-align: center;
+	width: 100%;
+
+}
+table thead tr th { 
+	text-align: center;
+	
+}
+
+td{
+	padding: 10px 5px;
+}
+#asd {
+	height: 30px;
+	
+}
+
 
 .lead {
 	font-size: 18px;
 	font-weight: 400;
+	
 }
 
 .intro-header {
@@ -68,6 +89,16 @@ body, h1, h2, h3, h4, h5, h6 {
 	.intro-divider {
 		width: 100%;
 	}
+}
+
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+	
 }
 
 .network-name {
