@@ -4,271 +4,65 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="ti">
+    <meta name="author" content="Maciej">
 
-    <title>Techniki internetowe - strona główna</title>
+    <title>Techniki internetowe - pokaz</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom Google Web Font -->
-	<link href='http://fonts.googleapis.com/css?family=Quintessential' rel='stylesheet' type='text/css'>
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    
 
-    <!-- Mapka Leaflet-->
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
-
-   
-    <!-- Add custom CSS here -->
-    <link href="css/landing-page.css" rel="stylesheet">
+   <!-- <link href="css/landing-page.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/beige.css" id="theme">  
 
 </head>
 
 <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="https://github.com/mperkowski">Github</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">MAIN</a>
-                    </li>
-                    <li><a href="tables.html">TABLES</a>
-                    </li>
-                    <li><a href="#contact">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <div class="intro-header">
-
-        <div class="container">
-
-           
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Techniki Internetowe</h1>
-                        <h2>Maciej Perkowski</h2>
-			<h2>Informatyka II rok IV semestr</h2>
-			
-                      <!-- < <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul> -->
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.intro-header -->
-   
 
 
-    <div class="content-section-a">
+ <div class="reveal">
 
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">
-                        <h2 style="text-align: center">Plan zajęć</h2>
-                    <p class="lead">
-                        
-Przygotować poziomą tabelę z planem zajęć, tzn. dni tygodnia, czyli sobotę i niedzielę, należy umieścić w pierwszej kolumnie tabeli. Użyć ustalonego (fixed) table-layout.</p>
-
-
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                   	
-                </div>
-	<table class="lol">
-    <thead>
-        <tr>
-            <th colspan="7">Plan zajęć</th>
-        </tr>
-        <tr>
-            <th>Dzień</th>
-            <th>Od</th>
-            <th>Do</th>
-            <th>Przedmiot</th>
-            <th>Prowadzący</th>
-            <th>Sala</th>
-            <th>Rodzaj</th>
-
-        </tr>
-    </thead>
-    
-    <tbody>
-    
-    <tr>
-        <td rowspan="3">Sobota</td>
-        <td>08:30</td>
-        <td>11:45</td>
-        <td>Język Angielski</td>
-        <td>A. Szabała</td>
-        <td>310</td>
-        <td>ćwiczenia</td>
-    </tr> 
-    <tr>
-        <td>12:15</td>
-        <td>14:30</td>
-        <td>Sieci komputerowe</td>
-        <td>J. Skurczyński</td>
-        <td>2</td>
-        <td>wykład</td>
-
-    </tr> 
-               
-
-    <tr>
-        <td>14:45</td>
-        <td>17:00</td>
-        <td>Sieci komputerowe</td>
-        <td>J. Skurczyński</td>
-        <td>109</td>
-        <td>lab.</td>
-    </tr> 
-     <tr id="asd"> </tr>
-
-    <tr>
-        <td rowspan="4">Niedziela</td>
-        <td>08:30</td>
-        <td>10:30</td>
-        <td>Techniki internetowe</td>
-        <td>W. Bzyl</td>
-        <td>2</td>
-        <td>wykład</td>
-    </tr>
-     <tr>
-        <td>10:45</td>
-        <td>13:0</td>
-        <td>Techniki internetowe</td>
-        <td>W. Bzyl</td>
-        <td>109</td>
-        <td>lab.</td>
-    </tr> 
-     <tr>
-        <td>13:30</td>
-        <td>14:45</td>
-        <td>Architektura komputerów</td>
-        <td>R. Fidytek</td>
-        <td>137</td>
-        <td>wykład</td>
-    </tr> 
-     <tr>
-        <td>14:45</td>
-        <td>16:00</td>
-        <td>Architektura komputerów</td>
-        <td>R. Fidytek</td>
-        <td>137</td>
-        <td>lab.</td>
-    </tr> 
-                
-    
-    </tbody>
-    </table>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
+        <div class="slides">
+               <!-- ALL SLIDES GO HERE -->
+            <!-- Each section element contains an individual slide -->
+            <section id="firstuwka">
+                <h1>Start Bootstrap</h1>
+                <p>Template - landing-page</p>
+                <a href="index.html">Powrót</a>      
+            </section>
  
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">
-                        <h2 style="text-align: center">Interaktywna mapa</h2>
-                    <p class="lead">
-                        
-oparta o biblioteke Leaflet.js</p>
-
-
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    
-                </div>
- <div id="map"> 
-       
-
-    <script>
-   // create a map in the "map" div, set the view to a given place and zoom
-var map = L.map('map').setView([54.399, 18.568], 4);
-
-// add an OpenStreetMap tile layer
-L.tileLayer('http://c.tile.cloudmade.com/d4fc77ea4a63471cab2423e66626cbb6/997/256/{z}/{x}/{y}.png').addTo(map);
-
-// add a marker in the given location, attach some popup content to it and open the popup
-L.marker([54.396, 18.558]).addTo(map)
-    .bindPopup('Uniwersytet')
-    .openPopup();
-
-L.marker([52.587, 14.649]).addTo(map)
-    .bindPopup('Woodstock !!!')
-    .openPopup();
-
-    </script>
-</div>
-</div>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li><a href="#home">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="tables.html">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2013. All Rights Reserved</p>
-                </div>
+            <section id="show-a-link">
+                <h1>tabele</h1>
+                <p>asd</p>
+               <a href="index.html">Powrót</a>   
+            </section>
+ 
+            <section>
+                <h1>c.d.n</h1>
+                <p></p>
+                 <a href="index.html">Powrót</a>   
+            </section>
+ 
             </div>
+
+
         </div>
-    </footer>
+
+    </div>
+</div>
+    
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
+        <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <script>
+  // Required, even if empty.
+  Reveal.initialize({
+  });
+</script>
 
 </body>
 

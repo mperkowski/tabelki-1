@@ -1,147 +1,170 @@
 body, html {
-	height: 100%;
-	width: 100%;
+height: 100%;
+width: 100%;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-	
-	font-family: 'Quintessential', cursive;
-	font-weight: 700;
+
+font-family: 'Quintessential', cursive;
+font-weight: 700;
 }
 .lol {
-	table-layout: fixed;
-	font-family: serif;
-	text-align: center;
-	margin-right: -4em;
-	
+table-layout: fixed;
+font-family: serif;
+text-align: center;
+margin-right: -4em;
+
 
 }
-.lol thead tr th { 
-	text-align: center;
-	color: #680000 
-	
+.lol thead tr th {
+text-align: center;
+color: #680000
+
 }
 
 
 .lol td {
-	border: 1px #680000 solid;
-	padding: 10px 5px;
-	color: #680000 ;
-	
-}
-.tabla {
-
-
-	font-family: Times; 
-	font-weight: lighter;
-	text-align: center;
-	float: left;
+border: 1px #680000 solid;
+padding: 10px 5px;
+color: #680000 ;
 
 }
-.tabla5 {
-	margin-left: 55%;
-	font-family: Times; 
-	font-weight: lighter;
-	text-align: center;
+.chickens {
+
+
+font-family: Times;
+font-weight: lighter;
+text-align: center;
+float: left;
+
 }
-#kurwax {
-	text-align: right;
-	width: 100px;
-	font-weight: bold;
-	
+.chickens-color {
+margin-left: 51%;
+font-family: Times;
+font-weight: lighter;
+text-align: center;
+
+}
+#first {
+text-align: right;
+width: 100px;
+font-weight: bold;
+
 }
 
 #francja {
-	text-align: center;
-	width: 120px;
-	font-family: Arial, cursive;
-	font-style: italic;
+text-align: center;
+width: 120px;
+font-family: Arial, cursive;
+font-style: italic;
 }
 #wiek {
-	text-align: center;
-	width: 4.5em;
+text-align: center;
+width: 4.5em;
 }
 #odstep{
-	height: 15px;
+height: 15px;
 }
 #metoda{
-	text-align: left;
+text-align: left;
 }
 .ffss {
-	text-align: center;
-	font-size: 60px;
+text-align: center;
+font-size: 60px;
 
 }
-.tabla2{
 
-	margin-left: 50px;
+
+/* Tabela nr 2 */
+
+.tabelka2{
+
+width: 45%;
+font-family: Arial;
+font-style: italic;
+float: left;
+margin-left: 50px;
+
+}
+.tabelka2-color {
+	margin-left: 55%;
 	width: 45%;
 	font-family: Arial;
 	font-style: italic;
+}
+
+.tabla3 {
+width: 20%;
+margin-left: 50px;
+
+text-align: center;
+font-family: Arial;
+border: 2px solid black;
+float: left;
+
 
 
 }
-	
-.tabla3 {
+.tabelka3-color {
 	width: 20%;
-	margin-left: 50px;
+margin-left: 55%;
 
-	text-align: center;
-	font-family: Arial;
-	border: 2px solid black;
-	
-	
+text-align: center;
+font-family: Arial;
+border: 2px solid black;
+
+
+
 
 }
 .tabla3-hed{
 
-	border: 2px solid black;
-	text-align: center;
+border: 2px solid black;
+text-align: center;
 }
 #new {
-	text-align: right;
-	
-	padding-right: 10px;
+text-align: right;
+
+padding-right: 10px;
 }
 #odstab3 {
-	
-	text-align: right;
-	padding-right: 10px;
+
+text-align: right;
+padding-right: 10px;
 }
 .tabla6 {
 
-	margin-left: 50px;
+margin-left: 50px;
+font-family: Arial;
+float: left;
+}
+
+.tabelka6-color {
 	font-family: Arial;
+	margin-left: 55%;
 }
 #asd {
-	height: 30px;
-	
+height: 30px;
+
 }
 
 
 .lead {
-	font-size: 18px;
-	font-weight: 400;
-	color: black;
-
-	
-}
-
-}
-.atom {
-	border-top: 1px solid #e7e7e7;
-	border-bottom: 1px solid #e7e7e7;
-	padding: 100px 0;
-	background: url(../img/frac.jpg) no-repeat center center;
-	
+font-size: 18px;
+font-weight: 400;
+color: black;
 
 
 }
+
+
 #leaflet{
-	text-align: center;
-	font-size: 50px;
-	color: black;
+text-align: center;
+font-size: 50px;
+color: black;
 }
+
+
 
 .intro-header {
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -155,8 +178,8 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro-message {
 	position: relative;
-	padding-top: 20%;
-	padding-bottom: 20%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 .intro-message > h1 {
