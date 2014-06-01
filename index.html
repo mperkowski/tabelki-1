@@ -62,8 +62,6 @@
     <div class="intro-header">
 
         <div class="container">
-
-           
                     <div class="intro-message">
                         <h1>Techniki Internetowe</h1>
                         <h2>Maciej Perkowski</h2>
@@ -95,9 +93,8 @@ Przygotować poziomą tabelę z planem zajęć, tzn. dni tygodnia, czyli sobotę
 
 
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    
-                </div>
+            
+      <div class="table-responsive">        
     <table class="lol">
     <thead>
         <tr>
@@ -184,12 +181,13 @@ Przygotować poziomą tabelę z planem zajęć, tzn. dni tygodnia, czyli sobotę
     
     </tbody>
     </table>
+                    </div>
             </div>
 
-        </div>
+    </div>    
         <!-- /.container -->
 
-    </div>
+
  
     <div class="content-section-a">
 
@@ -210,7 +208,7 @@ oparta o biblioteke Leaflet.js</p>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     
                 </div>
- <div id="map"> 
+ <div id="map" style="max-width: 100%"> 
        
 
     <script>
@@ -218,7 +216,7 @@ oparta o biblioteke Leaflet.js</p>
 var map = L.map('map').setView([54.399, 18.568], 5);
 
 // add an OpenStreetMap tile layer
-L.tileLayer('http://c.tile.cloudmade.com/d4fc77ea4a63471cab2423e66626cbb6/997/256/{z}/{x}/{y}.png').addTo(map);
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
 
 // add a marker in the given location, attach some popup content to it and open the popup
 L.marker([54.396, 18.558]).addTo(map)
@@ -262,16 +260,13 @@ L.marker([52.587, 14.649]).addTo(map)
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>Strona w budowie</h2>
+                    <h2>Landing-page</h2>
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
-                        <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <li><a href="https://github.com/mperkowski/tabelki-1/zipball/master" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Repozytorium ZIP</span></a>
                         </li>
-                        <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
+                        <li><a href="https://github.com/mperkowski/tabelki-1/tarball/master" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Repozytorium TAR</span></a>
                     </ul>
                 </div>
             </div>
@@ -281,29 +276,25 @@ L.marker([52.587, 14.649]).addTo(map)
 
     </div>
     <!-- /.banner -->
-
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                    <div class="cen">
                     <ul class="list-inline">
-                        <li><a href="#home">Home</a>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="tables.html">Tabelki</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="tables.html">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="plan.html">Contact</a>
+                        <li><a href="pokaz.html">Pokaz slajdow</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2013. All Rights Reserved</p>
+                </div>
                 </div>
             </div>
         </div>
     </footer>
+
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
